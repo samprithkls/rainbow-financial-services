@@ -1,0 +1,32 @@
+.privacy-container {
+    width: 85%;
+    margin: 0px auto;
+}
+
+.privacy-container > h2.privacy-header {
+    text-align: center;
+    font-weight: 700;
+    margin: 36px 0px;
+}
+
+.privacy-container > h2.privacy-header > h3.privacy-subheader {
+    text-align: left;
+    font-weight: 500;
+    margin: 14px 0px;
+}
+
+.privacy-container > div.privacy-text-content > p {
+    text-align: justify;
+}
+
+@media (max-width:720px){
+    .privacy-header{
+        font-size:1.7em;
+    }
+    .privacy-subheader{
+        font-size:1.2em;
+    }
+    .privacy-text{
+        font-size: 0.89em;
+    }
+}

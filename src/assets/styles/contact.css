@@ -1,0 +1,166 @@
+.contact {
+    font-family: 'Inter';
+    background-image: var(--contact-img); 
+    background-size:contain;
+    opacity:0.8;
+    padding:1%;
+    background-image: url('../images/contact.jpg'); 
+    border-radius: 5px;
+}
+
+.contact-container {
+    display: flex;
+    font-family:'Montserrat','sans-serif';
+    font-weight:bold;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-header {
+    white-space:nowrap;
+    font-weight: bold;
+    font-size: 210%;
+    color:black !important;
+}
+
+.line {
+    border-top: 0.5em solid  #FFBD59;
+    opacity: 1;
+    border-radius:5px;
+    margin-top:2%;
+}
+
+.contact-name {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.contact-label {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 1%;
+}
+
+.contact-form {
+    width: 80%;
+    margin-left: 14%;
+    margin-top: 3%;
+}
+
+.contact-input {
+    margin-bottom: 2%;
+}
+
+#exampleFormControlTextarea1 {
+    min-height: 70px;
+}
+
+.contact-details{
+    color:rgb(33, 33, 33) !important;
+}
+
+.contact-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5%;
+}
+
+.contact-submit {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 350;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 16px;
+    background-color:#1c6ade;
+    border-radius: 5px;
+    box-shadow: 4px 4px 7px rgba(20, 20, 20, 0.3);
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, transform 0.2s ease-out, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+}
+
+.contact-submit:hover {
+    background-color: #0044aa;
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 7px rgba(20, 20, 20, 0.5);
+}
+
+.contact-submit:focus {
+    outline: none;
+}
+
+.contact-submit:active {
+    transform: translateY(1px);
+}
+
+@media (max-width: 720px) {
+    
+    .contact {
+        margin: 0px auto;
+    }
+    .contact-name{
+        font-size:0.9em;
+    }
+    .contact-phone{
+        font-size:0.7em;
+    }
+    .contact-span.span-1 {
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+    .contact-span.span-2 {
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .contact-container {
+        display: flex;
+        font-family:'Montserrat','sans-serif';
+        font-weight:bold;
+        align-items: center;
+        text-align: center;
+        font-size:0.9em;
+    }
+
+    .line {
+        display: none;
+        margin-top: 5%;
+    }
+
+    .yellow-line {
+        background-color: #FFBD59;
+        height: 7%;
+        width: 90%;
+        margin-left: 6%;
+    }
+
+    .contact-form {
+        margin-left: -0.1em;
+    }
+
+    .we-are{
+        font-size: 1.2em !important;
+    }
+
+    .contact-header {
+        font-size: 1.6em;
+    }
+
+    .contact-label {
+        font-size: 1em;
+    }
+
+    .contact-submit {
+        margin: 10px 0px;
+    }
+    .contact-box{
+        justify-content: left;
+        align-items: unset;
+    }
+}

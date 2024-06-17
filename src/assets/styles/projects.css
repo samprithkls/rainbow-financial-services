@@ -1,0 +1,118 @@
+.projects {
+    font-family: 'Inter';
+    margin-top: 1%;
+    padding:1%;
+}
+
+.parent-video {
+    align-items: center;
+    justify-content: center;
+}
+
+.parent-carousel {
+    justify-content: center;
+}
+
+.service-text {
+    text-align: justify;
+    margin-left: 3.5%;
+    font-size: 1.3em;
+}
+
+.projects-video {
+    margin-top: 4%;
+    width: 65vw;
+    height: 25vw;
+    box-shadow: 8px 8px 18px grey;
+}
+
+.project-carousel {
+    box-shadow: 8px 8px 18px grey;
+}
+
+.project-carousel .carousel-item{
+    height: 25vw;
+}
+
+.catalogue {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+.carousel-item img {
+   min-height: 25vw;
+   object-fit: cover;
+}
+
+#carouselExampleCaptions {
+    margin-left: 2%;
+}
+
+#carouselExampleCaptions2 {
+    margin-right: 2%;
+}
+
+
+.mutual-img-container,
+.insurance-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+}
+
+.mutual-img-container img {
+    width: 360px;
+}
+
+.insurance-img-container img {
+    width: 340px;
+}
+
+@media (max-width: 720px) {
+    .projects-video {
+        margin-top: 6%;
+        width: 83vw;
+        height: 50vw;
+    }
+
+    .project-carousel .carousel-item{
+        height: 50vw;
+    }
+
+    #carouselExampleCaptions {
+        margin-top: 4%;
+        margin-left: 3%;
+        width: 81vw;
+    }
+
+    #carouselExampleCaptions2 {
+        margin-top: 8%;
+        margin-left: 3%;
+        width: 81vw;
+    }
+    .reverse-on-mobile {
+        flex-direction: column-reverse;
+    }
+
+    .line {
+        display: none;
+        margin-top: 5%;
+    }
+
+    .yellow-line {
+        display: block; 
+        background-color: #FFBD59;
+        height: 4px; 
+        width: 40%;
+        border-radius:3px;
+        margin-left:30%;
+    }
+
+    .mutual-img-container img,
+    .insurance-img-container img {
+        width: 250px;
+    }
+
+}

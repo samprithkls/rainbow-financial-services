@@ -1,0 +1,101 @@
+.mutual-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.mutual-title{
+    text-align: center;
+    font-weight: 700;
+    margin: 1em 0;
+    font-size: 2.5em; 
+}
+
+.mutual-header {
+    color: #333;
+    font-size: 1.5em;
+    margin: 2em;
+    text-align: center;
+    text-decoration: underline ;
+}
+
+.mutual-advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 4em;
+}
+
+.mutual-advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    flex: 1 1 calc(33.333% - 10px);
+    text-align: center;
+    animation: mutual-fadeIn 1s forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.mutual-circle {
+    background-color: #ff6600;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.mutual-circle img {
+    width: 40px;
+    height: 40px;
+}
+
+.mutual-advantage:hover .mutual-circle {
+    transform: scale(1.1);
+}
+
+.mutual-text {
+    color: #333;
+    font-weight: bold;
+}
+
+@keyframes mutual-fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#advantage-01 .mutual-circle { background-color: #3399ff; }
+#advantage-02 .mutual-circle { background-color: #ff6666; }
+#advantage-03 .mutual-circle { background-color: #99cc33; }
+#advantage-04 .mutual-circle { background-color: #ff9933; }
+#advantage-05 .mutual-circle { background-color: #cc33cc; }
+#advantage-06 .mutual-circle { background-color: #33cc99; }
+#advantage-07 .mutual-circle { background-color: #9999ff; }
+#advantage-08 .mutual-circle { background-color: #ff66cc; }
+#advantage-09 .mutual-circle { background-color: #66cccc; }
+#advantage-10 .mutual-circle { background-color: #ff9966; }
+
+.mutual-advantage:nth-child(odd) {
+    flex: 1 1 calc(50% - 10px);
+}
+
+@media (max-width:720px){
+    .mutual-advantages {
+        margin-right:1.4em;
+    }
+    
+}

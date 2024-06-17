@@ -1,0 +1,97 @@
+.disclosure-container {
+    width: 85%;
+    margin: 0px auto;
+}
+
+.disclosure-container > h2.disclosure-header {
+    text-align: center;
+    font-weight: 700;
+    margin: 36px 0px;
+}
+
+.disclosure-container > div.disclosure-text-content > p {
+    text-align: justify;
+}
+
+.table-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #1c6ade;
+    border-radius: 10px; 
+    overflow: hidden;
+  }
+  
+  th, td {
+    border: none; 
+    text-align: left;
+    padding: 12px;
+  }  
+  
+  th {
+    background-color: #1c6ade; 
+    color: white; 
+    font-weight: bold; 
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  
+  tr:nth-child(odd) {
+    background-color: white; 
+  }
+  
+  td {
+    border-bottom: 1px solid #dddddd; 
+  }
+  
+  tr:last-child td {
+    border-bottom: none; 
+  }
+
+  @media (max-width:720px){
+    .disclosure{
+      overflow-x:hidden;
+      flex-direction: column;
+    }
+    .disclosure-header{
+        font-size:1.7em;
+    }
+    .disclosure-table-container {
+      margin: 0 0 0 0;
+      padding:0 0 0 0;
+  }
+  table {
+    width: 90%;
+      transform:scale(0.80);
+      overflow: hidden; 
+  }
+    .disclosure-text{
+        font-size: 0.89em;
+    }
+    .disclosure-header {
+      font-size: 1.7em;
+  }
+
+  .disclosure-table-container {/* Reduce the width of the container */
+    margin: 0 auto; /* Center the container */
+}
+
+.disclosure-table {
+    font-size: 0.8em; /* Reduce font size for smaller screens */
+}
+
+.disclosure-table th, .disclosure-table td {
+    padding: 4px; /* Reduce padding for smaller screens */
+}
+
+.disclosure-text {
+    font-size: 0.89em;
+}
+}

@@ -1,0 +1,99 @@
+.dropdown-menu-container {
+    color: whitesmoke;
+    font-weight: unset;
+}
+
+.dropdown-menu-container .dropdown-menu-header {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu-container .dropdown-menu-header:hover {
+    cursor: pointer;
+}
+
+.dropdown-menu-container .dropdown-menu-header > svg {
+    margin-left: 5px;
+}
+
+.dropdown-menu-container .dropdown-menu-header .dropdown-header-chevron {
+    transition: 0.4s transform ease;
+}
+
+
+.dropdown-menu-container .expanded {
+    transform: rotate(-180deg);
+}
+
+.dropdown-menu-container .dropdown-menu-options {
+    background-color: #00b386;
+    position: absolute;
+    padding: 14px 32px;
+    top: 85px;
+    box-shadow: 10px 14px 79px -25px rgba(0,0,0,0.75);
+    border-radius: 8px;
+}
+
+.dropdown-menu-container .dropdown-menu-options.options-expanded {
+    display: block;
+    opacity: 0;
+    animation: slide-down 0.5s forwards;
+}
+
+.dropdown-menu-container .dropdown-menu-options.options-collapsed {
+    display: none;
+    opacity: 1;
+}
+
+
+.dropdown-menu-container .dropdown-menu-options.options-expanded > .dropdown-option:not(:first-child) {
+    margin-top: 5px;
+}
+
+.dropdown-menu-container .dropdown-menu-options > .dropdown-option > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+
+@keyframes slide-down {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    .dropdown-menu-container .dropdown-menu-options {
+        top: 100px;
+    }
+}
+@media (max-width:990px){
+
+    .dropdown-menu-container .dropdown-menu-header {
+        color: black;
+    }
+
+    .dropdown-menu-container .dropdown-menu-options {
+        background-color: transparent;
+        position: relative;
+        top: 5px;
+        box-shadow: none;
+        padding: 5px 0 0 10px;
+    }
+
+    .dropdown-menu-container .dropdown-menu-options > .dropdown-option > a {
+        color: black;
+        font-size: 0.8em;
+    }
+
+    .dropdown-menu-container .dropdown-menu-options > .dropdown-option:not(:last-child) {
+        border-bottom: 1px solid #6d6c6c;
+    }
+}

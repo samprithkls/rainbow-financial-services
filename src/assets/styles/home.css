@@ -1,0 +1,100 @@
+.home {
+    margin-top: 3%;
+    font-family: 'Inter';
+    align-items: center;
+    /* background-image: var(--home-img); */
+    background-size:cover;
+    padding:1%;
+}
+
+.builder-box {
+    color: #1c6ade;
+    text-shadow: 5px 1.7px #00b386;
+    font-size: 150%;
+}
+
+.builders {
+    color: black;
+    text-align: center;
+    font-size: 1.6em;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    position: relative; 
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.why-heading > div.react-typewriter-text-wrap > h1.react-typewriter-text {
+    text-wrap: nowrap;
+}
+
+.why-content {
+    margin-top: 2%;
+    align-items: center;
+}
+
+.why {
+    text-align: center;
+    font-weight: 700;
+}
+
+.why-text {
+    text-align: justify;
+    margin-left: 3.5%;
+    font-size: 1.6em;
+    line-height: 23px;
+    font-style: italic;
+    font-weight: 250;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.why-your {
+    font-size: 2.6em;
+    font-weight: bold;
+    animation: fadeIn 0.1s 1s forwards ease-in-out;
+    opacity: 0; 
+}
+
+@media (max-width: 760px) {
+    .why-heading {
+        margin-bottom: 4%;
+        text-align: center;
+    }
+
+    .builders{
+        display:none;
+    }
+
+    .row.why-content:nth-child(1) {
+        font-size: 0.6em;
+    }
+
+    .why-heading > div.react-typewriter-text-wrap > h1.react-typewriter-text {
+        text-align: center;
+        padding-left:25px;
+    }
+
+    .why-text {
+        line-height: 17px;
+    }
+
+}
