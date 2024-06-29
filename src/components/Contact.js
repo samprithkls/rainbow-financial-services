@@ -14,11 +14,11 @@ const Contact = () => {
             </div>
             <div className='row' style={{marginTop: '5%', marginLeft: '3%', paddingRight: '0'}}>
                 <div className='col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 contact-details'>
-                    <span className="we-are" style={{fontSize: '1.5em', fontWeight: '700'}}>We are here for questions or consulting</span>
-                    <hr></hr>
+                    {/* <span className="we-are" style={{fontSize: '1.5em', fontWeight: '700'}}>We are here for questions or consulting</span>
+                    <hr></hr> */}
                     <div className='row' style={{marginTop: '5%', color:'white'}}>
                         <p className='contact-name'>Mrs. Meenkashi Rajesh Sikchi </p>
-                        <p className='contact-name'>Mr. Rishab Rajesh Sikchi</p>
+                        {/* <p className='contact-name'>Mr. Rishab Rajesh Sikchi</p> */}
                     </div>
                     <div className='row' style={{marginTop: '5%', color:'white'}}>
                     <a href="tel:+91937-015-4501" style={{textDecoration: 'none', color: 'white'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91-9370154501</p> </a>
