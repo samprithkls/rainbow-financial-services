@@ -28,8 +28,8 @@ const Contact = () => {
                 </div>
 
                 <div className='col-xl-8 col-lg-8 col-md-6 col-sm-6 col-xs-6 contact-box'>
-                    <div className="contact-span span-1"><span >Get in touch with us!</span></div>
-                    <div className="contact-span span-2"><span >Our team will contact you within 24 hours</span></div>
+                    <div className="contact-span span-1" style={{fontSize: '1.5em', fontWeight: '700'}}><span >Get in touch with us!</span></div>
+                    <div className="contact-span span-2" style={{fontSize: '1.5em', fontWeight: '700'}}><span >Our team will contact you within 24 hours</span></div>
 
                     <form className='contact-form' id='contact-form' onSubmit={(event) => event.preventDefault()}>
                         <div className="form-group">
