@@ -22,7 +22,7 @@ const News = () => {
             </div>
             <div className="news-link-container">
               <h2 className="news-header"><strong>SID/SAI/KIM</strong> Circulars are available here:</h2>
-              <a className="news-anchor" href="https://www.sebi.gov.in/fillings/mutual-funds.html" target="_blank" rel="noopener noreferrer">
+              <a className="news-anchor" href="https://www.sebi.gov.in/filings/mutual-funds.html" target="_blank" rel="noopener noreferrer">
                 <img src={sebiLogo} alt="SEBI Logo" className="news-logo" />
                 Visit SEBI Circulars
                 <FaExternalLinkAlt style={{marginLeft: '7px'}}/>
