@@ -18,11 +18,10 @@ const Contact = () => {
                     <hr></hr>
                     <div className='row' style={{marginTop: '5%', color:'white'}}>
                         <p className='contact-name'>Mrs. Meenkashi Rajesh Sikchi </p>
-                        <a href="tel:+91937-015-4501" style={{textDecoration: 'none', color: 'white'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91-9370154501</p> </a>
+                        <p className='contact-name'>Mr. Rishab Rajesh Sikchi</p>
                     </div>
                     <div className='row' style={{marginTop: '5%', color:'white'}}>
-                        <p className='contact-name'>Mr. Rishab Rajesh Sikchi</p>
-                        <a href="tel:+91902-837-3696" style={{textDecoration: 'none', color: 'white'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91-9028373696</p> </a>
+                    <a href="tel:+91937-015-4501" style={{textDecoration: 'none', color: 'white'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91-9370154501</p> </a>
                         <a href = "mailto:mrsikchi@gmail.com" style={{textDecoration: 'none', color: 'white'}}> <p className='contact-email'><MdOutlineEmail size={25}/> &nbsp; mrsikchi@gmail.com</p> </a>  
                     </div>
                 </div>
