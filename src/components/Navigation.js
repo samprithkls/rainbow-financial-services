@@ -25,36 +25,38 @@ const Navigation = ({ active, updateActiveTab }) => {
             <div className='navbar-links'>
                 {hostPath === '/' ?
                     <ul className='nav-links'>
-                        <li href='#home' className={`nav-item ${active === 'Home' ? 'active' : null}`} onClick={() => updateActiveTab('Home')}>
+                        {/* <li href='#home' className={`nav-item ${active === 'Home' ? 'active' : null}`} onClick={() => updateActiveTab('Home')}>
                             <a href='#home' style={{ textDecoration: 'none', color: 'whitesmoke' }}> Home</a>
-                        </li>
-                        <li className={`nav-item ignore-active-border ${active === 'Projects' ? 'active' : null}`} onClick={() => updateActiveTab('Projects')}>
+                        </li> */}
+                        {/* <li className={`nav-item ignore-active-border ${active === 'Projects' ? 'active' : null}`} onClick={() => updateActiveTab('Projects')}>
                             <DropdownMenu title="Services" dropdownOptions={servicesDropdownMenuOptions} />
+                        </li> */}
+                        <li className={`nav-item ${active === 'InvestorZone' ? 'active' : null}`} onClick={() => updateActiveTab('InvestorZone')}>
+                            {/* <DropdownMenu title="InvestorZone" dropdownOptions={investorZoneMenuOptions} /> */}
+                            <a href='/' style={{ textDecoration: 'none', color: 'whitesmoke' }}>Investor Zone</a>
                         </li>
-                        <li className={`nav-item ignore-active-border ${active === 'InvestorZone' ? 'active' : null}`} onClick={() => updateActiveTab('InvestorZone')}>
-                            <DropdownMenu title="InvestorZone" dropdownOptions={investorZoneMenuOptions} />
-                        </li>
-                        <li className={`nav-item ${active === 'About' ? 'active' : null}`} onClick={() => updateActiveTab('About')}>
+                        {/* <li className={`nav-item ${active === 'About' ? 'active' : null}`} onClick={() => updateActiveTab('About')}>
                             <a href='#about' style={{ textDecoration: 'none', color: 'whitesmoke' }}>About Us</a>
-                        </li>
+                        </li> */}
                         <li href='#contact' className={`nav-item ${active === 'Contact' ? 'active' : null}`} onClick={() => updateActiveTab('Contact')}>
                             <a href='#contact' style={{ textDecoration: 'none', color: 'whitesmoke' }}>Contact</a>
                         </li>
                     </ul>
                     :
                     <ul className='nav-links'>
-                        <li href='#home' className={`nav-item ${active === 'Home' ? 'active' : null}`} onClick={() => updateActiveTab('Home')}>
+                        {/* <li href='#home' className={`nav-item ${active === 'Home' ? 'active' : null}`} onClick={() => updateActiveTab('Home')}>
                             <a href='../#home' style={{ textDecoration: 'none', color: 'whitesmoke' }}> Home</a>
-                        </li>
-                        <li className={`nav-item ignore-active-border ${active === 'Projects' ? 'active' : null}`} onClick={() => updateActiveTab('Projects')}>
+                        </li> */}
+                        {/* <li className={`nav-item ignore-active-border ${active === 'Projects' ? 'active' : null}`} onClick={() => updateActiveTab('Projects')}>
                             <DropdownMenu title="Services" dropdownOptions={servicesDropdownMenuOptions} />
+                        </li> */}
+                        <li className={`nav-item ${active === 'InvestorZone' ? 'active' : null}`} onClick={() => updateActiveTab('InvestorZone')}>
+                            {/* <DropdownMenu title="InvestorZone" dropdownOptions={investorZoneMenuOptions} /> */}
+                            <a href='/' style={{ textDecoration: 'none', color: 'whitesmoke' }}>Investor Zone</a>
                         </li>
-                        <li className={`nav-item ignore-active-border ${active === 'InvestorZone' ? 'active' : null}`} onClick={() => updateActiveTab('InvestorZone')}>
-                            <DropdownMenu title="InvestorZone" dropdownOptions={investorZoneMenuOptions} />
-                        </li>
-                        <li className={`nav-item ${active === 'About' ? 'active' : null}`} onClick={() => updateActiveTab('About')}>
+                        {/* <li className={`nav-item ${active === 'About' ? 'active' : null}`} onClick={() => updateActiveTab('About')}>
                             <a href='../#about' style={{ textDecoration: 'none', color: 'whitesmoke' }}>About Us</a>
-                        </li>
+                        </li> */}
                         <li href='#contact' className={`nav-item ${active === 'Contact' ? 'active' : null}`} onClick={() => updateActiveTab('Contact')}>
                             <a href='../#contact' style={{ textDecoration: 'none', color: 'whitesmoke' }}>Contact</a>
                         </li>

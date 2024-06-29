@@ -13,7 +13,7 @@ import News from './components/News';
 
 const App = () => {
 
-    const [active, setActive] = useState('Home');
+    const [active, setActive] = useState('InvestorZone');
 
     const updateActiveTab = (newActiveTab) => {
         setActive(newActiveTab);
@@ -29,8 +29,8 @@ const App = () => {
                     <Route path='/disclosure' element = {<Disclosure/>} />
                     <Route path='/privacy-policy' element = {<PrivacyPolicy/>} />
                     <Route path='/kyc' element = { <Kyc/>} />
-                    <Route path = '/mutual-funds' element = { <Mutual/> } />
-                    <Route path='/insurance' element = { <Insurance/> } />
+                    {/* <Route path = '/mutual-funds' element = { <Mutual/> } />
+                    <Route path='/insurance' element = { <Insurance/> } /> */}
                     <Route path='/news' element = { <News/> } />
                 </Routes>
                 <Footer updateActiveTab={updateActiveTab} />

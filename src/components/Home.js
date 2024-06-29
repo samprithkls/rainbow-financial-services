@@ -29,7 +29,7 @@ const Home = () => {
                 />
             </span>
         </div> */}
-        <div className='row why-content'>
+        {/* <div className='row why-content'>
             <div className='col-xl-3 col-lg-4 col-md-3 col-sm-12 col-xs-12 why-heading'>
                 <TypeWriterEffect textStyle={{fontFamily: 'Inter', fontWeight:800}} startDelay={100} cursorColor='#DADADA' text='Why Invest 💸?' typeSpeed={100} loop={true} />
             </div>
@@ -41,7 +41,13 @@ const Home = () => {
                 Focus on Risk Management and Long-term Value Creation.<span style={{fontWeight: '800', fontSize: '23px'}}>“</span>
                 </p>
             </div>
-        </div>
+        </div> */}
+            <div className='row home-container'style={{marginTop: '1%', paddingLeft: '3.1%', fontSize:'125%'}}>
+                <div className='col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 line-container'><hr className='line'></hr></div>
+                <div className='col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 line-container home-header'>Investor Zone</div>
+                <div className='col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 line-container'><hr className='line'></hr></div>
+                <div className='row yellow-line'></div>
+            </div>
     </div>
     );
 } 

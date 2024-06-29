@@ -61,45 +61,51 @@ const MobileNavigation = () => {
                 {
                     hostPath === '/' ?
                         <ul className='nav-links-mobile'>
-                            <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.05}} className={`nav-item-mobile ${active==='Home'?'active':null}`} onClick={() => {setActive('Home')
+                            {/* <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.05}} className={`nav-item-mobile ${active==='Home'?'active':null}`} onClick={() => {setActive('Home')
                             setOpen(!open) }}>
                                 <a href='#home' style={{textDecoration: 'none', color: 'black'}}>Home</a>
-                            </motion.li>
-                            <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.10}} className={`nav-item-mobile ${active==='Projects'?'active':null}`} onClick={() => setActive('Projects')}>
+                            </motion.li> */}
+                            {/* <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.10}} className={`nav-item-mobile ${active==='Projects'?'active':null}`} onClick={() => setActive('Projects')}>
                                 <MobileDropdownMenu title="Services" dropdownOptions={servicesDropdownMenuOptions} updateMobileNavOpen={updateMobileNavOpen} />
-                            </motion.li>
-                            <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.10}} className={`nav-item-mobile ${active==='InvestorZone'?'active':null}`} onClick={() => {setActive('InvestorZone')
+                            </motion.li> */}
+                            {/* <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.10}} className={`nav-item-mobile ${active==='InvestorZone'?'active':null}`} onClick={() => {setActive('InvestorZone')
                             }}>
                                 <MobileDropdownMenu title="InvestorZone" dropdownOptions={investorZoneMenuOptions} updateMobileNavOpen={updateMobileNavOpen}/>
+                            </motion.li> */}
+                            <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.20}} className={`nav-item-mobile ${active === 'InvestorZone' ? 'active' : null}`} onClick={() => updateMobileNavOpen('InvestorZone')}>
+                                <a href='/' style={{ textDecoration: 'none', color: 'black' }}>Investor Zone</a>
                             </motion.li>
-                            <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.20}} className={`nav-item-mobile ${active==='About'?'active':null}`} onClick={() => {setActive('About') 
+                            {/* <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.20}} className={`nav-item-mobile ${active==='About'?'active':null}`} onClick={() => {setActive('About') 
                             setOpen(!open) }}>
                                 <a href='#about' style={{textDecoration: 'none', color: 'black'}}>About Us</a>
-                            </motion.li>
-                            <motion.li href='#contact   ' initial={animateFrom} animate={animateTo} transition={{delay: 0.30}} className={`nav-item-mobile ${active==='Contact'?'active':null}`} onClick={() => {setActive('Contact') 
+                            </motion.li> */}
+                            <motion.li href='#contact' initial={animateFrom} animate={animateTo} transition={{delay: 0.30}} className={`nav-item-mobile ${active==='Contact'?'active':null}`} onClick={() => {setActive('Contact') 
                             setOpen(!open)} }>
                                 <a href='#contact' style={{textDecoration: 'none', color: 'black'}}>Contact</a>
                             </motion.li>
                         </ul> 
                     :
                         <ul className='nav-links-mobile'>
-                            <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.05}} className={`nav-item-mobile ${active==='Home'?'active':null}`} onClick={() => {setActive('Home')
+                            {/* <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.05}} className={`nav-item-mobile ${active==='Home'?'active':null}`} onClick={() => {setActive('Home')
                             setOpen(!open) }}>
                                 <a href='../#home' style={{textDecoration: 'none', color: 'black'}}>Home</a>
-                            </motion.li>
-                            <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.10}} className={`nav-item-mobile ${active==='Projects'?'active':null}`} onClick={() => {setActive('Projects')
+                            </motion.li> */}
+                            {/* <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.10}} className={`nav-item-mobile ${active==='Projects'?'active':null}`} onClick={() => {setActive('Projects')
                             }}>
                                 <MobileDropdownMenu title="Services" dropdownOptions={servicesDropdownMenuOptions} updateMobileNavOpen={updateMobileNavOpen} />
-                            </motion.li>
-                            <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.10}} className={`nav-item-mobile ${active==='InvestorZone'?'active':null}`} onClick={() => {setActive('InvestorZone')
+                            </motion.li> */}
+                            {/* <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.10}} className={`nav-item-mobile ${active==='InvestorZone'?'active':null}`} onClick={() => {setActive('InvestorZone')
                             }}>
                                 <MobileDropdownMenu title="InvestorZone" dropdownOptions={investorZoneMenuOptions} updateMobileNavOpen={updateMobileNavOpen} />
-                            </motion.li>
-                            <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.20}} className={`nav-item-mobile ${active==='About'?'active':null}`} onClick={() => {setActive('About') 
+                            </motion.li> */}
+                            <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.20}} className={`nav-item-mobile ${active === 'InvestorZone' ? 'active' : null}`} onClick={() => updateMobileNavOpen('InvestorZone')}>
+                            <a href='/' style={{ textDecoration: 'none', color: 'black' }}>Investor Zone</a>
+                             </motion.li>
+                            {/* <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.20}} className={`nav-item-mobile ${active==='About'?'active':null}`} onClick={() => {setActive('About') 
                             setOpen(!open) }}>
                                 <a href='../#about' style={{textDecoration: 'none', color: 'black'}}>About Us</a>
-                            </motion.li>
-                            <motion.li href='../#contact   ' initial={animateFrom} animate={animateTo} transition={{delay: 0.30}} className={`nav-item-mobile ${active==='Contact'?'active':null}`} onClick={() => {setActive('Contact') 
+                            </motion.li> */}
+                            <motion.li href='../#contact' initial={animateFrom} animate={animateTo} transition={{delay: 0.30}} className={`nav-item-mobile ${active==='Contact'?'active':null}`} onClick={() => {setActive('Contact') 
                             setOpen(!open)} }>
                                 <a href='#contact' style={{textDecoration: 'none', color: 'black'}}>Contact</a>
                             </motion.li>

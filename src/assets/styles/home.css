@@ -7,6 +7,21 @@
     padding:1%;
 }
 
+.home-container {
+    display: flex;
+    font-family:'Montserrat','sans-serif';
+    font-weight:bold;
+    align-items: center;
+    text-align: center;
+}
+
+.home-header {
+    white-space:nowrap;
+    font-weight: bold;
+    font-size: 210%;
+    color:black !important;
+}
+
 .builder-box {
     color: #1c6ade;
     text-shadow: 5px 1.7px #00b386;

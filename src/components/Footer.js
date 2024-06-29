@@ -39,7 +39,7 @@ const Footer = ({updateActiveTab}) => {
                     <div className="footer-image-container">
                         <img  className="footer-image" src={Amfi} alt="AMFI"/>
                     </div>
-                    <div className="footer-heading">
+                    {/* <div className="footer-heading">
                         <h4>Rainbow Financial Services</h4>
   
                     </div>
@@ -52,8 +52,8 @@ const Footer = ({updateActiveTab}) => {
                     <p className="footer-about" style={{marginBottom: '0px'}}><strong>Since:</strong> January 30,2017</p>
                     <p className="footer-about"><strong>Current Validity:</strong> September 20, 2025</p>
                     <p style={{fontSize: '14px  '}}><strong> AMFI REGISTERED MUTUAL FUND DISTRIBUTOR </strong></p>
-                </div>
-                <div className="row footer-info">
+                </div> */}
+                {/* <div className="row footer-info"> */}
                     <div className="footer-heading">
                         <h4>Meenakshi Rajesh Sikchi</h4>
                     </div>
@@ -73,7 +73,7 @@ const Footer = ({updateActiveTab}) => {
 
             <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 footer-infos footer-links">
                 <h4>Links</h4>
-                <div className="row footer-info">
+                {/* <div className="row footer-info">
                     <a className='footer-link' href='#home'>Home</a>
                 </div>
                 <div className="row footer-info">
@@ -81,7 +81,11 @@ const Footer = ({updateActiveTab}) => {
                 </div>
                 <div className="row footer-info">
                     <a className='footer-link' href='#about'>About</a>
+                </div> */}
+                <div className="row footer-info">
+                    <a className='footer-link' href='/'>Investor Zone</a>
                 </div>
+
                 <div className="row footer-info">
                     <a className='footer-link' href='#contact'>Contact</a>
                 </div>
