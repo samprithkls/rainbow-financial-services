@@ -1,5 +1,5 @@
 import React from 'react';
-import TypeWriterEffect from 'react-typewriter-effect';
+//import TypeWriterEffect from 'react-typewriter-effect';
 import '../assets/styles/home.css';
 //import AnimatedLetters from './AnimatedLetters';
 import '../assets/styles/animatedletters.css';

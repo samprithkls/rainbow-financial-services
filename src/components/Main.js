@@ -1,8 +1,8 @@
 import React from "react";
 import Home from './Home';
 import Contact from './Contact';
-import About from "./About";
-import Projects from "./Projects";
+// import About from "./About";
+// import Projects from "./Projects";
 import Kyc from './Kyc';
 import News from './News'
 

@@ -2,7 +2,7 @@ import React, { useState} from 'react';
 import Logo from '../assets/images/logo.gif';
 import {AiOutlineMenu,AiOutlineClose} from 'react-icons/ai';
 import {motion} from 'framer-motion';
-import MobileDropdownMenu from './MobileDropdownMenu';
+//import MobileDropdownMenu from './MobileDropdownMenu';
 
 const MobileNavigation = () => {
     
@@ -14,28 +14,28 @@ const MobileNavigation = () => {
     const hostPath = window.location.pathname;
 
     
-    const servicesDropdownMenuOptions = [
-        {
-            "name": "Mutual Funds",
-            "routeToPathName": "mutual-funds"
-        },
-        {
-            "name": "Insurance",
-            "routeToPathName": "insurance"
-        },
-    ];
+    // const servicesDropdownMenuOptions = [
+    //     {
+    //         "name": "Mutual Funds",
+    //         "routeToPathName": "mutual-funds"
+    //     },
+    //     {
+    //         "name": "Insurance",
+    //         "routeToPathName": "insurance"
+    //     },
+    // ];
 
-    const investorZoneMenuOptions = [
-        {
-            "name": "KYC Validation",
-            "routeToPathName": "kyc"
-        },
-        {
-            "name": "Circulars and Updates",
-            "routeToPathName": "news"
+    // const investorZoneMenuOptions = [
+    //     {
+    //         "name": "KYC Validation",
+    //         "routeToPathName": "kyc"
+    //     },
+    //     {
+    //         "name": "Circulars and Updates",
+    //         "routeToPathName": "news"
 
-        }
-    ];
+    //     }
+    // ];
 
     const updateMobileNavOpen = (newOpenvalue) => {
         setOpen(newOpenvalue);
