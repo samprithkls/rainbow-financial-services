@@ -65,7 +65,7 @@ const Footer = ({updateActiveTab}) => {
                 <div className="row footer-info parent-about" style={{marginTop: '-15px'}}>
                     <p className="footer-about" style={{marginBottom: '0px'}}><strong>Since:</strong> August 31,2007</p>
                     <p className="footer-about"><strong>Current Validity:</strong> August 29, 2024</p>
-                    <p className="footer-reg" style={{fontSize: '14px '}}><center><strong> AMFI REGISTERED MUTUAL FUND DISTRIBUTOR </strong></center></p>
+                    <p className="footer-reg" style={{fontSize: '14px '}}><strong> AMFI REGISTERED MUTUAL FUND DISTRIBUTOR </strong></p>
                 </div>
             </div>
 

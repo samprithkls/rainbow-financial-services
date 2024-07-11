@@ -7,9 +7,11 @@ import Disclaimer from './components/Disclaimer';
 import Disclosure from './components/Disclosure';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Kyc from './components/Kyc';
-import Mutual from './components/Mutual';
-import Insurance from './components/Insurance';
+// import Mutual from './components/Mutual';
+// import Insurance from './components/Insurance';
 import News from './components/News';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
@@ -21,6 +23,18 @@ const App = () => {
 
     return (
         <div style={{backgroundColor:'rgb(252,252,252)'}}>
+            <ToastContainer
+                position="top-right"
+                autoClose={4000}
+                hideProgressBar={false}
+                newestOnTop={true}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+            />
             <BrowserRouter>
                 <Navbar active={active} updateActiveTab={updateActiveTab} />
                 <Routes>
