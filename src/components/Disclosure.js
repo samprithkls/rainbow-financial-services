@@ -11,7 +11,7 @@ const Disclosure = () => {
                 <h2 className='disclosure-header'>DISCLOSURE</h2>
                 <div className='disclosure-text-content'>
                     <p className='disclosure-text'>
-                        We receive commission from Asset Management Companies for investments made by our clients under our ARN Codes. The commission receivable is subject to and as per the guidelines laid down by SEBI and the Asset Management Companies. The disclosure of commissions payable to us for the different schemes of various mutual funds as per clause 4(d) of the SEBI Circular No. SEBI/IMD/CIR No. 4/168230 dated June 30, 2009 is provided (hereinbelow table).
+                        We receive commission from Asset Management Companies for investments made by our clients under the ARN Code. The commission receivable is subject to and as per the guidelines laid down by SEBI and the Asset Management Companies. The disclosure of commissions payable to us for the different schemes of various mutual funds as per clause 4(d) of the SEBI Circular No. SEBI/IMD/CIR No. 4/168230 dated June 30, 2009 is provided (hereinbelow table).
                     </p>
                     <div className="disclosure-table-container">
                     <table>
