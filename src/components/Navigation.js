@@ -1,19 +1,19 @@
 import React from 'react';
 import Logo from '../assets/images/logo.gif';
-import DropdownMenu from './DropdownMenu';
+//import DropdownMenu from './DropdownMenu';
 import '../assets/styles/navigation.css';
 const Navigation = ({ active, updateActiveTab }) => {
     const hostPath = window.location.pathname;
 
-    const servicesDropdownMenuOptions = [
-        { "name": "Mutual Funds", "routeToPathName": "mutual-funds" },
-        { "name": "Insurance", "routeToPathName": "insurance" }
-    ];
+    // const servicesDropdownMenuOptions = [
+    //     { "name": "Mutual Funds", "routeToPathName": "mutual-funds" },
+    //     { "name": "Insurance", "routeToPathName": "insurance" }
+    // ];
 
-    const investorZoneMenuOptions = [
-        { "name": "KYC Validation", "routeToPathName": "kyc" },
-        { "name": "Circulars and Updates", "routeToPathName": "news" }
-    ];
+    // const investorZoneMenuOptions = [
+    //     { "name": "KYC Validation", "routeToPathName": "kyc" },
+    //     { "name": "Circulars and Updates", "routeToPathName": "news" }
+    // ];
 
     return (
         <nav className='navbar'>

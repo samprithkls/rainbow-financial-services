@@ -99,6 +99,10 @@
     transform: translateY(1px);
 }
 
+.contact-submit > svg.icon-loading {
+    height: 23px;
+}
+
 @media (max-width: 720px) {
     
     .contact {
