@@ -33,7 +33,7 @@ const Footer = ({updateActiveTab}) => {
                 </div>
                 <br></br>
                 <div className="row footer-info">
-                    <h5 style={{marginBottom: '8px'}}>Greivance Officer: </h5>
+                    <h5 style={{marginBottom: '8px'}}>Grievance Officer: </h5>
                     <span style={{fontSize: '18px'}}><strong>Name: </strong>Vineet Rathi</span>
                 </div>
                 <div className="row footer-info">
