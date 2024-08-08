@@ -31,9 +31,18 @@ const Footer = ({updateActiveTab}) => {
                 <div className="row footer-info">
                     <span><AiOutlineMail size={25}/> <a href="mailto:mrsikchi@gmail.com" style={{textDecoration: 'none',color: '#2596be'}} > &nbsp; <strong>mrsikchi@gmail.com</strong></a></span>
                 </div>
+                <br></br>
+                <div className="row footer-info">
+                    <h5 style={{marginBottom: '8px'}}>Grevience Officer: </h5>
+                    <span style={{fontSize: '18px'}}><strong>Name: </strong>Vineet Rathi</span>
+                </div>
+                <div className="row footer-info">
+                    <span><BsTelephone size={23}/> <a href="tel:+91 9370154501" style={{textDecoration: 'none', color: 'whitesmoke'}} > &nbsp; <strong>+91 9607911186</strong> </a></span>
+                </div>
+                <div className="row footer-info">
+                    <span><AiOutlineMail size={25}/> <a href="mailto:mrsikchi@gmail.com" style={{textDecoration: 'none',color: '#2596be'}} > &nbsp; <strong>admin@rfsonline.in</strong></a></span>
+                </div>
             </div>
-            
-
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-amfi">
                 <div className="row footer-info">
                     <div className="footer-image-container">
